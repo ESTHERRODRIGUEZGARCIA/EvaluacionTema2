@@ -25,7 +25,7 @@ class Coche(Vehiculo):
         return self.cilindrada
 
 class Bicicleta(Vehiculo):
-    def tipo():
-        
+    def __init_subclass__(cls) -> None:
+        return super().__init_subclass__()
 
 
