@@ -9,4 +9,6 @@ class Producto():
     def __str__(self):
         return
 
+    producto1 = Producto(13, "Secador", 20, "Belleza")
+    producto2 = Producto(13, "Plancha", 30, "Belleza")
     
