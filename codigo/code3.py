@@ -9,6 +9,8 @@ class Producto():
     def __str__(self):
         return
 
-    producto1 = Producto(13, "Secador", 20, "Belleza")
-    producto2 = Producto(13, "Plancha", 30, "Belleza")
-    
+    def tipo_producto(producto1, producto2):
+        producto1 = Producto(13, "Secador", 20, "Belleza")
+        producto2 = Producto(13, "Plancha", 30, "Belleza")
+        
+
