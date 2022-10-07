@@ -24,5 +24,8 @@ class Coche(Vehiculo):
     def get_cilindrada(self):
         return self.cilindrada
 
+class Bicicleta(Vehiculo):
+    def tipo():
+        
 
 
