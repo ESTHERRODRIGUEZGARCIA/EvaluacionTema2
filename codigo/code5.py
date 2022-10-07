@@ -28,4 +28,6 @@ class Bicicleta(Vehiculo):
     def __init_subclass__(cls) -> None:
         return super().__init_subclass__()
 
+class Camioneta(Vehiculo):
+    def 
 
