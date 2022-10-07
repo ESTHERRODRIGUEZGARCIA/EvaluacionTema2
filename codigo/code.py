@@ -10,4 +10,7 @@ class Alumno():
         elif self.nota < 5:
             print("Alumno suspenso. ")
 
-    #falta crear alumnos
+    #falta crear alumnos, experimentación
+
+        Miguel = Alumno("Miguel")
+        
