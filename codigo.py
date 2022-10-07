@@ -9,5 +9,5 @@ class Alumno():
             print("Alumno aprobado. ")
         elif nota < 5:
             print("Alumno suspenso. ")
-            
-        
+
+    #falta crear alumnos
