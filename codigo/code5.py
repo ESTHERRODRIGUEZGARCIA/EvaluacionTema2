@@ -19,3 +19,10 @@ class Coche(Vehiculo):
     def get_velocidad(self):
         return self.velocidad
 
+    def set_cilindrada(cilindrada, self):
+        self.cilindrada = cilindrada
+    def get_cilindrada(self):
+        return self.cilindrada
+
+
+
