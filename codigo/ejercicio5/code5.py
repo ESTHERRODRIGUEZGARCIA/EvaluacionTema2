@@ -43,16 +43,8 @@ class Motocicleta(Vehiculo):
     def get_cilindrada(self):
         return self.cilindrada
 
-class Bicicleta(Vehiculo):
-    def __init_subclass__(cls) -> None:
-        return super().__init_subclass__()
-    
-    def __str__(self):
-        return super().__str__()
-    
-    def set_tipo():
-
-
 class Camioneta(Vehiculo):
-    def 
+    def __init__(self, color, ruedas, carga):
+        Vehiculo.__init__(self, color, ruedas)
+        self.carga = carga
 
