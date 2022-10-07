@@ -12,5 +12,5 @@ class Alumno():
 
     #falta crear alumnos, experimentación
 
-        Miguel = Alumno("Miguel")
-        
+        alum1 = Alumno("Miguel ")
+        alum2 = Alumno("Esther ")
