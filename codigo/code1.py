@@ -5,7 +5,7 @@ class Alumno():
         print("El alumno se ha creado con éxito. ")
 
     def calificacion(self):
-        if self.nota >= 5:
+        if self.nota >= 5 and self.nota <=10:
             print("Alumno aprobado. ")
         elif self.nota < 5:
             print("Alumno suspenso. ")
