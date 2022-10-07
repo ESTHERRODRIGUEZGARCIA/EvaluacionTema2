@@ -27,6 +27,12 @@ class Coche(Vehiculo):
 class Bicicleta(Vehiculo):
     def __init_subclass__(cls) -> None:
         return super().__init_subclass__()
+    
+    def __str__(self):
+        return super().__str__()
+    
+    def set_tipo():
+        
 
 class Camioneta(Vehiculo):
     def 
