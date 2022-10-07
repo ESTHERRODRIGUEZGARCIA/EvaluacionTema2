@@ -13,3 +13,9 @@ class Coche(Vehiculo):
 
     def __str__(self):
         return Vehiculo.__str__(self) + ", {} km/h, {} cc".format(self.velocidad, self.cilindrada)
+
+    def set_velocidad(self, velocidad):
+        self.velocidad = velocidad
+    def get_velocidad(self):
+        return self.velocidad
+
